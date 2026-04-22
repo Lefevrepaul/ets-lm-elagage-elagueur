@@ -1,7 +1,7 @@
 export const siteConfig = {
   company: {
     name: "Ets LM élagage élagueur",
-    tagline: "Expert en élagage et soins des arbres dans les Hauts-de-France",
+    tagline: "Votre expert dans les Hauts-de-France",
     description: "Entreprise spécialisée dans l'élagage professionnel, l'abattage sécurisé et l'entretien d'espaces verts. Nous intervenons avec expertise et passion pour préserver et embellir vos arbres et jardins dans la Somme et ses environs."
   },
   contact: {

@@ -34,25 +34,25 @@ export const data: TemplateData = {
   ],
   services: [
     {
-      id: "conception",
-      title: "Conception paysagère",
+      id: "elagage",
+      title: "Élagage & abattage",
       description:
-        "Plans, volumes, ambiances végétales. Une vision claire avant le premier coup de pelle.",
-      icon: "pencil-ruler",
-    },
-    {
-      id: "creation",
-      title: "Création de jardins",
-      description:
-        "Terrasses, allées, plantations, éclairage. Un extérieur pensé pour durer.",
+        "Interventions sécurisées, coupes maîtrisées, respect des essences et du voisinage.",
       icon: "shovel",
     },
     {
-      id: "entretien",
-      title: "Entretien annuel",
+      id: "soins",
+      title: "Soins des arbres",
       description:
-        "Contrats sur mesure pour garder votre jardin impeccable, saison après saison.",
+        "Conseils, taille raisonnée, entretien et mise en forme pour des arbres sains et durables.",
       icon: "sprout",
+    },
+    {
+      id: "paysage",
+      title: "Entretien de jardin",
+      description:
+        "Allées, plantations, taille de haies et entretien : un extérieur propre et agréable toute l’année.",
+      icon: "pencil-ruler",
     },
   ],
   realisations: [

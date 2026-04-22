@@ -60,22 +60,23 @@ export function Hero() {
             variants={item}
             className="text-xs font-medium uppercase tracking-wider text-[#9ccc65]"
           >
-            Paysagiste — {siteConfig.location.region}
+            Élagueur & paysagiste — {siteConfig.location.region}
           </motion.p>
 
           <motion.h1
             variants={item}
             className="mt-5 max-w-3xl text-4xl font-medium tracking-tight sm:text-5xl"
           >
-            Créons ensemble votre espace de vie extérieur
+            Élagage, abattage et aménagements extérieurs
           </motion.h1>
 
           <motion.p
             variants={item}
             className="mt-6 max-w-2xl text-base leading-relaxed text-white/80"
           >
-            Un accompagnement complet, du premier croquis à la livraison. Des
-            aménagements durables, élégants, et 100% sur mesure.
+            Interventions soignées et sécurisées sur vos arbres (élagage, soins,
+            abattage) et création/entretien de jardins. Un résultat durable,
+            propre et sur mesure.
           </motion.p>
 
           <motion.div
@@ -107,7 +108,7 @@ export function Hero() {
             variants={item}
             className="mt-12 grid gap-6 sm:max-w-xl sm:grid-cols-3 lg:ml-auto lg:max-w-none lg:grid-cols-3"
           >
-            <Stat label="Jardins" value={siteConfig.stats.projectsCount} />
+            <Stat label="Chantiers" value={siteConfig.stats.projectsCount} />
             <Stat
               label="Expérience"
               value={`${siteConfig.stats.yearsExperience} ans`}

@@ -18,7 +18,7 @@ export function Services() {
           <SectionHeader
             tag="Nos expertises"
             title="Un accompagnement complet"
-            subtitle="De la conception à l’entretien, tout est pensé pour un extérieur élégant, pratique et durable."
+            subtitle="Élagage, soins des arbres et travaux paysagers : tout est pensé pour un extérieur sûr, élégant et durable."
           />
         </FadeIn>
 

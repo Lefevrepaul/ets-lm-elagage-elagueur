@@ -48,9 +48,9 @@ export function Footer() {
               Services
             </p>
             <ul className="mt-4 grid gap-2 text-sm text-gray-600">
-              <li>Conception paysagère</li>
-              <li>Création de jardins</li>
-              <li>Entretien annuel</li>
+              <li>Élagage & abattage</li>
+              <li>Soins des arbres</li>
+              <li>Entretien de jardin</li>
             </ul>
           </div>
 

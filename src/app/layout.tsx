@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   description: siteConfig.seo.metaDescription,
   metadataBase: baseUrl,
   openGraph: {
-    title: `${siteConfig.company.name} — Paysagiste à ${siteConfig.location.city}`,
+    title: `${siteConfig.company.name} — Élagueur & paysagiste à ${siteConfig.location.city}`,
     description:
-      "Conception, création et entretien de jardins. Devis gratuit sous 48h.",
+      "Élagage, abattage et entretien de jardins. Devis gratuit sous 48h.",
     type: "website",
     locale: "fr_FR",
   },
@@ -44,7 +44,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: siteConfig.company.name,
-    description: `Conception, création et entretien de jardins haut de gamme accessibles à ${siteConfig.location.city} et autour.`,
+    description: `Élagage, abattage, soins des arbres et travaux paysagers à ${siteConfig.location.city} et autour.`,
     areaServed: siteConfig.location.region,
     telephone: siteConfig.contact.phoneE164,
     url: siteConfig.seo.url,
